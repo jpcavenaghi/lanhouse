@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.projeto.lanhouse.lanhousejavafx.controller.ListarJogosController">
+    <TableView fx:id="tableJogos">
+        <columns>
+            <TableColumn text="ID" fx:id="colId"/>
+            <TableColumn text="Nome" fx:id="colNome"/>
+            <TableColumn text="Gênero" fx:id="colGenero"/>
+            <TableColumn text="Desenvolvedor" fx:id="colDesenvolvedor"/>
+            <TableColumn text="Classificação Etária" fx:id="colClassificacaoEtaria"/>
+        </columns>
+    </TableView>
+</VBox>

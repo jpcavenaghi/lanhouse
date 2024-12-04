@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="com.projeto.lanhouse.lanhousejavafx.controller.MainViewController">
+   <AnchorPane prefHeight="210.0" prefWidth="300.0">
+      <children>
+          <Button layoutX="112.0" layoutY="86.0" onAction="#abrirTelaListarJogos" text="Listar Jogos" />
+          <Button layoutX="104.0" layoutY="123.0" onAction="#abrirTelaAdicionarJogo" text="Adicionar Jogo" />
+      <!--    <Button text="Atualizar Jogo" onAction="#abrirTelaAtualizarJogo"/>-->
+          <Button layoutX="109.0" layoutY="161.0" onAction="#abrirTelaDeletarJogo" text="Deletar Jogo" />
+         <Text layoutX="29.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seja bem vindo ao sistema de Jogos!">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Text>
+         <Text layoutX="101.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esolha sua ação:">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Text>
+      </children>
+   </AnchorPane>
+   <opaqueInsets>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </opaqueInsets>
+</VBox>
