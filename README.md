@@ -27,8 +27,8 @@ Bem-vindo ao repositório do **Projeto Lanhouse CRUD**! Este é um sistema compl
 🧑‍💻 Equipe
 🎉 Nosso time é formado por cinco integrantes dedicados:
 
-Beatriz Queiroz: Responsável pelo backend e estrutura do banco de dados.
-João Pedro Cavenaghi: Desenvolvedor do frontend em JavaFX.
-Laís Biazotto: Especialista em integração e comunicação API.
-Pedro Gabriel: Testes e validação do sistema.
-Pedro Luque: Documentação e apresentação.
+- Beatriz Queiroz: Responsável pelo backend e estrutura do banco de dados.
+- João Pedro Cavenaghi: Desenvolvedor do frontend em JavaFX.
+- Laís Biazotto: Especialista em integração e comunicação API.
+- Pedro Gabriel: Testes e validação do sistema.
+- Pedro Luque: Documentação e apresentação.
